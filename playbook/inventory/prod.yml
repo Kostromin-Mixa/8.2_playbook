@@ -1,5 +1,5 @@
 ---
-elasticsearch:
+elastic:
   hosts:
     localhost:
       ansible_connection: ssh
