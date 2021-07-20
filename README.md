@@ -1,4 +1,6 @@
 Playbook устанавливает: JAVA, Elasticsearch, Kibana.
+Playbook запускает три тега по очереди: JAVA, Elastic, kibana
+
 Playbook использует параметры:
 - ansible_connection (метод подключения у удалённому хосту)
 - ansible_user (подкаким пользователем будем произведено подключение)
