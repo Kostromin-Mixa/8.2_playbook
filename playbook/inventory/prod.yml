@@ -1,5 +1,10 @@
 ---
-elasticsearch:
+elasticsearch: 
+  hosts:
+    localhost:
+      ansible_connection: ssh
+      ansible_user: root
+kibana:
   hosts:
     localhost:
       ansible_connection: ssh
